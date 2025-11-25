@@ -2,7 +2,6 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 import "./styles/global.css";
 import HomePage from "./pages/HomePage";
-import ServicesPage from "./pages/ServicesPage";
 import DoctorsPage from "./pages/DoctorsPage";
 import PatientsPage from "./pages/PatientsPage";
 import HelpPage from "./pages/HelpPage";
@@ -17,7 +16,6 @@ function App() {
 
       <Routes>
         <Route path="/" element={<HomePage />} />
-        <Route path="/services" element={<ServicesPage />} />
         <Route path="/for-doctors" element={<DoctorsPage />} />
         <Route path="/for-patients" element={<PatientsPage />} />
         <Route path="/help" element={<HelpPage />} />
