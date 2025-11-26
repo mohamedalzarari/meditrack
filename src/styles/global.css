@@ -314,3 +314,88 @@ background-color: rgb(221, 253, 218);
   font-family: sans-serif;
   margin-top: 40px;
 }
+/* =======================
+   FOR DOCTORS PAGE STYLES
+   ======================= */
+
+.for-doctors {
+  padding: 60px 20px;
+  background-color: #fbfafa;
+  font-family: sans-serif;
+}
+
+/* Section Title + Subtitle */
+.for-doctors .lead {
+  margin-bottom: 40px;
+}
+
+.for-doctors .lead h2 {
+  font-size: 36px;
+  margin-bottom: 10px;
+  color: #1e293b;
+}
+
+.for-doctors .lead p {
+  font-size: 16px;
+  color: #475569;
+  max-width: 600px;
+}
+
+/* Grid for Cards */
+.docards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 24px;
+  margin-bottom: 40px;
+}
+
+/* Each Card */
+.doc-card {
+  background: #ffffff;
+  padding: 24px;
+  border-radius: 12px;
+  border: 1px solid #e2e8f0;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.06);
+  transition: 0.2s ease;
+}
+
+.doc-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 4px 14px rgba(0,0,0,0.1);
+}
+
+/* Card Titles */
+.doc-card h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+  color: #1e293b;
+}
+
+/* Card Text */
+.doc-card p {
+  font-size: 15px;
+  color: #475569;
+  line-height: 1.5;
+}
+
+/* Analytics Card */
+.analytics-card {
+  padding: 30px !important;
+}
+
+.analytics-card ul {
+  margin-left: 20px;
+  color: #334155;
+}
+
+.analytics-card li {
+  margin-bottom: 6px;
+  font-size: 15px;
+}
+
+/* CTA Button Container */
+.analytics-card .btn {
+  margin: 20px auto 0;
+  display: block;
+  width: fit-content;
+}
