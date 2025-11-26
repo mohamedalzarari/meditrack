@@ -392,10 +392,12 @@ background-color: rgb(221, 253, 218);
   margin-bottom: 6px;
   font-size: 15px;
 }
-
-/* CTA Button Container */
-.analytics-card .btn {
-  margin: 20px auto 0;
-  display: block;
-  width: fit-content;
+.analytics-card {
+  background-color: #f9fafb;
+  border: 1px solid #e5e7eb;
+  border-radius: 12px;
+}
+.btn-container{
+  margin-top: 20px;
+  text-align: center;
 }

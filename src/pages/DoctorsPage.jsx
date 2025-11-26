@@ -26,19 +26,21 @@ function DoctorsPage() {
           </div>
         </div>
 
-        <div className="doc-card nalytics-card " >
-          <h3>overview</h3>
-          <p>a quick overview for your daily insights:</p>
-          <ul>
-            <li>Upcoming appointments</li>
-            <li>reminders sent Today</li>
-            <li>Missed appointments</li>
-          </ul>
-        </div>
+        <div className="doc-card analytics-card">
+  <h3>overview</h3>
+  <p>a quick overview for your daily insights:</p>
 
-         <div>
-          <a href="#" className="btn primary">Go to Dashboard</a>
-          </div> 
+  <ul>
+    <li>Upcoming appointments</li>
+    <li>reminders sent Today</li>
+    <li>Missed appointments</li>
+  </ul>  
+</div>
+
+<div className="btn-container">
+<a href="/dashboard" className="btn primary">Go to Dashboard</a>
+</div>
+
 
       </div>
       </section>
