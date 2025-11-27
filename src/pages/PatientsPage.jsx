@@ -15,7 +15,14 @@ function PatientsPage() {
             <h3>Appointments</h3>
             <p>View and manage upcoming doctor appointments.</p>
           </div>
+          <div className="patients-card">
+            <h3>Reminders</h3>
+            <p>Set up medication and appointment reminders.</p>
+          </div>
         </div>
+        <div className="btn-container">
+  <a className="patient-auth-btn" href="#">Signup / Login</a>
+</div>
       </div>
     </section>
   );
