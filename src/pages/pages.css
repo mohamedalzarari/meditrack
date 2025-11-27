@@ -59,3 +59,79 @@
 .patient-auth-btn:hover {
   text-decoration: underline;
 }
+/* HELP PAGE */
+.help-page {
+  padding: 60px 20px;
+  background-color: #fbfafa;
+  font-family: sans-serif;
+}
+
+.help-hero {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.help-hero h2 {
+  font-size: 36px;
+  color: #1e293b;
+  margin-bottom: 10px;
+}
+
+.help-hero p {
+  color: #475569;
+  font-size: 16px;
+}
+
+/* Grid of cards */
+.help-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 24px;
+  margin-bottom: 50px;
+}
+
+.help-card {
+  background: white;
+  padding: 24px;
+  border-radius: 12px;
+  border: 1px solid #e2e8f0;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.06);
+  transition: 0.2s ease;
+}
+
+.help-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 4px 14px rgba(0,0,0,0.1);
+}
+
+.help-card h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+  color: #1e293b;
+}
+
+.help-card p {
+  color: #475569;
+  font-size: 14px;
+}
+
+/* CTA */
+.help-cta {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.contact-btn {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 12px 24px;
+  background-color: #2563eb;
+  color: white;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.contact-btn:hover {
+  background-color: #1e40af;
+}

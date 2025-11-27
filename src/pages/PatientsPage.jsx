@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 function PatientsPage() {
   return (
     <section className="patients-page">
@@ -20,8 +21,8 @@ function PatientsPage() {
             <p>Set up medication and appointment reminders.</p>
           </div>
         </div>
-        <div className="btn-container">
-  <a className="patient-auth-btn" href="#">Signup / Login</a>
+       <div className="btn-container">
+  <Link to="/login" className="patient-auth-btn">Login</Link>
 </div>
       </div>
     </section>

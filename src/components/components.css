@@ -5,7 +5,7 @@
   justify-content: space-between;
   margin: 100px;
   gap: 16px;
-  padding: 18px;
+  padding: 18px 30px;
   border-radius: 12px;
   max-width: 440px;
   background-color: white;
@@ -29,7 +29,7 @@
 
 .appointment-badge {
   font-size: 8px;
-  padding: 1px 16px;
+  padding: 3px 15px;
   background-color: #ddfdda;
   border-radius: 50px;
   color: #15b540;
