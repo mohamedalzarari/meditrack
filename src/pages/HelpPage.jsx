@@ -2,13 +2,13 @@ function HelpPage() {
   return (
     <section className="help-page">
 
-      {/* Top Hero Section */}
+      
       <div className="help-hero container">
         <h2>How can we help you?</h2>
         <p>Find quick answers to the most common Meditrack questions.</p>
       </div>
 
-      {/* Help Topics Grid */}
+      
       <div className="help-grid container">
 
         <div className="help-card">
@@ -43,7 +43,7 @@ function HelpPage() {
 
       </div>
 
-      {/* Bottom CTA */}
+      
       <div className="help-cta container">
         <p>Didn’t find what you’re looking for?</p>
         <a href="#" className="contact-btn">Contact Support</a>

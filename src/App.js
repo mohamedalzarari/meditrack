@@ -7,7 +7,6 @@ import DoctorsPage from "./pages/DoctorsPage";
 import PatientsPage from "./pages/PatientsPage";
 import HelpPage from "./pages/HelpPage";
 import LoginPage from "./pages/LoginPage";
-
 import Header from "./components/Header";
 import Footer from "./components/Footer";
 
@@ -15,7 +14,7 @@ function App() {
   return (
     <Router>
       <Header />
-
+<div className="main-content">
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="/for-doctors" element={<DoctorsPage />} />
@@ -23,7 +22,7 @@ function App() {
         <Route path="/help" element={<HelpPage />} />
         <Route path="/login" element={<LoginPage />} />
       </Routes>
-
+</div>
       <Footer />
     </Router>
   );

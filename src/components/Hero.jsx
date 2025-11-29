@@ -11,7 +11,7 @@ function Hero() {
           <p>Your health, our priority. Track your medical history with ease.</p>
 
           <div id="hero-buttons">
-            <a href="#Get started" className="btn primary">Get started</a>
+            <a href="/login" className="btn primary">Get started</a>
             <a href="#See features" className="btn secondary">See features</a>
           </div>
         </div>
