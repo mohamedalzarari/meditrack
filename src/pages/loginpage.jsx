@@ -14,7 +14,7 @@ function LoginPage() {
       </form>
       <div className="login-links">
         <a href="/forgot password">Forgot password? </a>
-        <a href="/signup">Don't have an account? Sign up</a>
+        <a href="/Signup">Don't have an account? Sign up</a>
       </div>
 
     </div>
