@@ -12,6 +12,7 @@ import Footer from "./components/Footer";
 
 function App() {
   return (
+    <div className="app-shell">
     <Router>
       <Header />
 <div className="main-content">
@@ -25,6 +26,7 @@ function App() {
 </div>
       <Footer />
     </Router>
+    </div>
   );
 }
 
