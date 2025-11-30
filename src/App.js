@@ -10,7 +10,8 @@ import LoginPage from "./pages/LoginPage";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
 import SignupPage from "./pages/SignupPage";
-
+import Dashboard from "./pages/DashboardPage";
+import DashboardPage from "./pages/DashboardPage";
 function App() {
   return (
     <div className="app-shell">
@@ -24,6 +25,7 @@ function App() {
         <Route path="/help" element={<HelpPage />} />
         <Route path="/login" element={<LoginPage />} />
         <Route path="/signup" element={<SignupPage/>}/>
+        <Route path="/dashboard" element={<DashboardPage/>}/>
       </Routes>
 </div>
       <Footer />
