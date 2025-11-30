@@ -2,7 +2,7 @@ function SignupPage() {
   return (
     <div className="auth-page">
       <div className="auth-card">
-      <h2>Login to Meditrack</h2>
+      <h2>Signup to Meditrack</h2>
       <p className="auth-subtitle"> Access your clinic or patient dashboard.</p>
 
       <form className="auth-form">
@@ -21,7 +21,7 @@ function SignupPage() {
         <button type="submit" className="auth-btn">Create account</button>
       </form>
       <p className="auth-switch">
-        <a href="/login">Already have an account?</a> 
+        <a href="/login" className="switch-link">Already have an account?</a> 
       
       </p>
     </div>
