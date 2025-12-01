@@ -290,3 +290,10 @@ transition: 0.2s ease;
 .auth-switch .switch-link:hover{
   text-decoration: underline;
 }
+/*Dashboard*/
+.dashboard{
+  display: flex;
+  padding: 80px 20px;
+  align-items: center;
+  font-family: sans-serif;
+}
