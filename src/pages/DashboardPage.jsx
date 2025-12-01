@@ -26,6 +26,13 @@ function DashboardPage(){
   </div>
         ))}
         </div>
+        <h2>Quick actions</h2>
+        <div className="quick-actions">
+            <button>Add Appointment</button>
+            <button>Issue perscription</button>
+            <button>request lab</button>
+            <button>Add medical note</button>
+        </div>
     </div>
     );
 }

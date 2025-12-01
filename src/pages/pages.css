@@ -292,8 +292,72 @@ transition: 0.2s ease;
 }
 /*Dashboard*/
 .dashboard{
+  padding: 40px 20px ;
+}
+.appointments-list{
   display: flex;
-  padding: 80px 20px;
-  align-items: center;
-  font-family: sans-serif;
+  flex-direction: column;
+  gap: 16px;
+}
+.appointment-card{
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+  border: 1px solid #e2e8f0;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+
+}
+.appointment-top{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 8%;
+}
+.status{
+  padding: 6px 12px;
+  border-radius: 6px;
+  font-size: 14px;
+  font-weight: 600;
+}
+.status.upcoming{
+  background: #dbeafe; 
+}
+.status.completed{
+  background: #fee2e2;
+  color: #b91c1c;
+}
+.view-btn,.cancel-btn{
+  border: none;
+  margin: 4px;
+  padding:6px 14px;
+  border-radius: 6px;
+  margin-right: 8px;
+  cursor: pointer;
+}
+.view-btn{
+  background: #2563eb;
+  color: white;
+}
+.cancel-btn{
+  background:#ef4444;
+  color: white;
+
+}
+.quick-actions{
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+  margin-bottom: 40px;
+}
+.quick-actions button{
+  background: #2563eb;
+  color: white;
+  border: none;
+  padding: 10px 16px ;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 600;
+}
+.quick-actions button:hover{
+  background:#1e40af;
 }
