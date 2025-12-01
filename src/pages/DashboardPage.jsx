@@ -1,4 +1,4 @@
-import appointments from "./src/data/appointments"
+import appointments from "../data/appointments"
 function DashboardPage(){
     return(
 <div className="dashboard">
@@ -15,7 +15,7 @@ function DashboardPage(){
                 <span className="time">{appt.time}</span>
                 </div>
             
-            </div>
+                
                 <p>{appt.reason}</p>
             <span className={`status ${appt.status.toLowerCase()}`}>{appt.status}</span>
 
@@ -23,11 +23,10 @@ function DashboardPage(){
         <button className="view-btn">View</button>
         {appt.status === "Upcoming" && ( <button className="cancel-btn">Cancel</button>)}
     </div>
-
-  
+  </div>
         ))}
         </div>
-</div>
+    </div>
     );
 }
 export default DashboardPage;

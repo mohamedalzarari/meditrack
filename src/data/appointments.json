@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "patientName": "Sarah Johnson",
+    "time": "3:30 PM",
+    "reason": "Follow-up Check",
+    "status": "Upcoming"
+  },
+  {
+    "id": 2,
+    "patientName": "Mark Aziz",
+    "time": "4:00 PM",
+    "reason": "New Consultation",
+    "status": "Completed"
+  },
+  {
+    "id": 3,
+    "patientName": "Layla Hamad",
+    "time": "5:15 PM",
+    "reason": "Prescription Renewal",
+    "status": "Cancelled"
+  }
+]
