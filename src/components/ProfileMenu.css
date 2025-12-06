@@ -1,0 +1,43 @@
+.profile-wrapper {
+  position: relative;
+  cursor: pointer;
+}
+
+.profile-icon {
+  font-size: 22px;
+  padding: 8px;
+  background: #2563eb;
+  color: white;
+  border-radius: 50%;
+  transition: 0.2s;
+}
+
+.profile-icon:hover {
+  background: #1e40af;
+}
+
+.profile-dropdown {
+  position: absolute;
+  right: 0;
+  top: 45px;
+  background: white;
+  border: 1px solid #e2e8f0;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  width: 180px;
+  padding: 10px;
+  z-index: 1000;
+}
+
+.profile-dropdown a {
+  display: block;
+  text-decoration: none;
+  padding: 10px;
+  color: #334155;
+  border-radius: 6px;
+  font-size: 14px;
+}
+
+.profile-dropdown a:hover {
+  background: #f1f5f9;
+}

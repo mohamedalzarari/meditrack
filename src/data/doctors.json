@@ -1,0 +1,15 @@
+[{
+    "id": 1,
+    "name": "Dr. alzarari",
+    "speciality": "cardiology",
+    "email": "alzarari@gmail.com",
+    "nextAvailable": "2025-02-10"
+},
+{
+    "id": 1,
+    "name": "Dr. mohamed ",
+    "speciality": "surgoen",
+    "email": "mohamed@gmail.com",
+    "nextAvailable": "2025-01-17"
+}
+]

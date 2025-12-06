@@ -1,0 +1,95 @@
+/* APPOINTMENT CARD */
+.appointment-card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 100px;
+  gap: 16px;
+  padding: 18px 30px;
+  border-radius: 12px;
+  max-width: 440px;
+  background-color: white;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  border: 1px solid #e0e0e0;
+}
+
+.appointment-info {
+  flex: 1;
+  margin-right: 0 !important;
+}
+
+.appointment-title {
+  font-size: 16px;
+  letter-spacing: 0.5px;
+}
+
+.appointment-meta {
+  font-size: 10px;
+}
+
+.appointment-badge {
+  font-size: 8px;
+  padding: 3px 15px;
+  background-color: #ddfdda;
+  border-radius: 50px;
+  color: #15b540;
+  border: 1px solid #cdf3db;
+}
+
+.appointment-illus {
+  width: 50px;
+  height: 36px;
+  border-radius: 12px;
+  border: 1px dashed #c7d2fe;
+  background: linear-gradient(135deg,#e0edff,#f5f8ff);
+}
+
+/* SERVICES CARDS */
+.services {
+  padding: 40px 20px;
+}
+
+.services-grid {
+  display: flex;
+  gap: 20px;
+}
+
+.services-card {
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  flex: 1;
+}
+.services-card:hover{
+  transform: translateY(-4px);
+  box-shadow: 0 4px 14px rgba(0,0,0,0.1);
+}
+
+/* DOCTORS CARDS (shared) */
+.doc-card {
+  background: #ffffff;
+  padding: 24px;
+  border-radius: 12px;
+  border: 1px solid #e2e8f0;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.06);
+  transition: 0.2s ease;
+}
+
+.doc-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 4px 14px rgba(0,0,0,0.1);
+}
+/*logo*/
+.logo-img {
+  height: 28px;
+  transform: scale(5);
+  transform-origin: left center;
+  margin-right: 100px;
+}
+
+.header .logo {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
